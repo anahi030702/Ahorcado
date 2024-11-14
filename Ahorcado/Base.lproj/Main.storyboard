@@ -31,7 +31,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="193" y="-19"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bWr-7S-AaA">
@@ -54,57 +54,66 @@
                                 <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rat-GB-OEE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rat-GB-OEE">
                                 <rect key="frame" x="69.666666666666686" y="194.33333333333334" width="263" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="NcC-gX-dF5"/>
                                     <constraint firstAttribute="width" constant="263" id="bIl-xy-cqT"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Jugar">
-                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="30"/>
-                                    <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Jugar">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AM0-fe-DxF" kind="presentation" modalPresentationStyle="fullScreen" id="d0h-UW-eYq"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCO-iK-QAr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCO-iK-QAr">
                                 <rect key="frame" x="69.666666666666686" y="269.33333333333331" width="263" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="d1b-u2-1Ht"/>
                                     <constraint firstAttribute="width" constant="263" id="mxS-7o-I1y"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Records">
-                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="30"/>
-                                    <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Records">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ly-rI-REf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ly-rI-REf">
                                 <rect key="frame" x="69.666666666666686" y="419.33333333333331" width="263" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Iiq-Fp-X6m"/>
                                     <constraint firstAttribute="width" constant="263" id="ORQ-1j-2Lh"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Créditos">
-                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="30"/>
-                                    <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Créditos">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4Jj-Z3-LWb" kind="presentation" id="TmC-57-v3U"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63O-kg-dY6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63O-kg-dY6">
                                 <rect key="frame" x="69.666666666666686" y="344.33333333333331" width="263" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="9tP-9j-PfF"/>
                                     <constraint firstAttribute="width" constant="263" id="opo-Mr-5qu"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Instrucciones">
-                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="30"/>
-                                    <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Instrucciones">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7va-Qa-htY" kind="presentation" id="fQB-La-evQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vN8-Rq-ClV"/>
@@ -133,6 +142,146 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cWf-ob-L9X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="884.73282442748086" y="-18.30985915492958"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vEg-vl-BSu">
+            <objects>
+                <viewController id="4Jj-Z3-LWb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UBA-Ay-7bV">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="864"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Créditos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPp-TY-mpA">
+                                <rect key="frame" x="111" y="150" width="180" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="aik-11-ds5"/>
+                                    <constraint firstAttribute="width" constant="180" id="mWh-Xq-O4A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="ANAHI ALVAREZ HOLGUIN             21170158                                                     " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ILD-Wt-brv">
+                                <rect key="frame" x="55.666666666666657" y="254" width="291" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="ZE5-Vu-BHv"/>
+                                    <constraint firstAttribute="width" constant="291" id="cZA-Aw-SAN"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="MARIO HUMBERTO GARCIA RODRIGUEZ                            22330017" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qQk-xt-aj4">
+                                <rect key="frame" x="59" y="366" width="284" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="QM7-kv-ncW"/>
+                                    <constraint firstAttribute="height" constant="128" id="f0A-MJ-Heo"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FHm-XY-UFf"/>
+                        <color key="backgroundColor" red="0.44705885649999999" green="0.33333334329999997" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ILD-Wt-brv" firstAttribute="centerX" secondItem="UBA-Ay-7bV" secondAttribute="centerX" id="1fH-xT-HU3"/>
+                            <constraint firstItem="qQk-xt-aj4" firstAttribute="top" secondItem="ILD-Wt-brv" secondAttribute="bottom" constant="20" id="4NK-fy-9tm"/>
+                            <constraint firstItem="GPp-TY-mpA" firstAttribute="centerX" secondItem="UBA-Ay-7bV" secondAttribute="centerX" id="SLT-n2-UUO"/>
+                            <constraint firstItem="GPp-TY-mpA" firstAttribute="top" secondItem="FHm-XY-UFf" secondAttribute="top" constant="150" id="gzn-nx-7Ba"/>
+                            <constraint firstItem="ILD-Wt-brv" firstAttribute="top" secondItem="GPp-TY-mpA" secondAttribute="bottom" constant="50" id="qsU-E5-8ni"/>
+                            <constraint firstItem="qQk-xt-aj4" firstAttribute="centerX" secondItem="UBA-Ay-7bV" secondAttribute="centerX" id="uKE-RX-hZp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A6X-zd-85F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1577.6119402985073" y="-19.221967963386728"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U5I-xJ-PIg">
+            <objects>
+                <viewController id="7va-Qa-htY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gqN-j1-4dy">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="864"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cuj-JB-bRt">
+                                <rect key="frame" x="33.666666666666657" y="206" width="335" height="538"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="538" id="SxG-kX-FKg"/>
+                                    <constraint firstAttribute="width" constant="335" id="miD-mC-FXQ"/>
+                                </constraints>
+                                <mutableString key="text">Cómo jugar:
+* La palabra se muestra con casillas vacías que representan cada letra.
+* Escribe una letra en el campo correspondiente para intentar adivinar la palabra.
+
+Si la letra es correcta:
+* La casilla correspondiente se marcará en verde y la letra aparecerá en su lugar en la palabra.
+
+Si la letra es incorrecta:
+* La casilla se marcará en rojo temporalmente para indicar el error.
+* Después de un breve momento, el color se eliminará y podrás seguir intentándolo con otra letra.
+
+Fin del juego:
+* Ganas si adivinas la palabra antes de que se complete el dibujo del ahorcado.
+* Pierdes si el ahorcado se completa antes de que adivines la palabra.                                  </mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instrucciones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIM-4b-MX5">
+                                <rect key="frame" x="90.666666666666686" y="40" width="221" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="OQc-5u-4gf"/>
+                                    <constraint firstAttribute="width" constant="221" id="ZQN-ye-jhL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Objetivo: Adivina la palabra oculta antes de que se complete el dibujo del ahorcado." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAL-Ge-nG9">
+                                <rect key="frame" x="33.666666666666657" y="109" width="335" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="335" id="Acz-wS-OVx"/>
+                                    <constraint firstAttribute="height" constant="72" id="ymn-VU-DaW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="019-PP-MWT"/>
+                        <color key="backgroundColor" red="0.44705885649999999" green="0.33333334329999997" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="qAL-Ge-nG9" firstAttribute="centerX" secondItem="gqN-j1-4dy" secondAttribute="centerX" id="8dD-vo-jT7"/>
+                            <constraint firstItem="tIM-4b-MX5" firstAttribute="centerX" secondItem="gqN-j1-4dy" secondAttribute="centerX" id="Hsp-bX-A3b"/>
+                            <constraint firstItem="cuj-JB-bRt" firstAttribute="centerX" secondItem="gqN-j1-4dy" secondAttribute="centerX" id="MXI-be-CPd"/>
+                            <constraint firstItem="tIM-4b-MX5" firstAttribute="top" secondItem="019-PP-MWT" secondAttribute="top" constant="40" id="VET-Vm-TGq"/>
+                            <constraint firstItem="cuj-JB-bRt" firstAttribute="top" secondItem="qAL-Ge-nG9" secondAttribute="bottom" constant="25" id="Y7P-M7-5gB"/>
+                            <constraint firstItem="qAL-Ge-nG9" firstAttribute="top" secondItem="tIM-4b-MX5" secondAttribute="bottom" constant="15" id="b2X-Wf-y1N"/>
+                            <constraint firstItem="cuj-JB-bRt" firstAttribute="centerX" secondItem="gqN-j1-4dy" secondAttribute="centerX" id="enm-j6-Mzx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KX6-KG-cv5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="867.16417910447751" y="641.18993135011442"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pro-iS-l41">
+            <objects>
+                <viewController id="AM0-fe-DxF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HdT-rv-keu">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="SiK-Cm-cqM"/>
+                        <color key="backgroundColor" red="0.44705885649999999" green="0.33333334329999997" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kyf-OZ-0e4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="-678"/>
         </scene>
     </scenes>
     <resources>
